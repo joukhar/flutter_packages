@@ -4,4 +4,8 @@ class AvatarHelper {
   static bool isOnlineAvatar(String avatar) {
     return avatar.startsWith('http');
   }
+
+  static bool isRawSvg(String avatar) {
+    return avatar.startsWith('<svg');
+  }
 }

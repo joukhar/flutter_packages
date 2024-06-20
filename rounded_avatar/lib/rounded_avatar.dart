@@ -66,14 +66,25 @@ class RoundedAvatar extends StatelessWidget {
                   color != null && blendMode != null ? ColorFilter.mode(color!, blendMode!) : null,
               placeholderBuilder: (context) => placeholder ?? const SizedBox(),
             )
-          : SvgPicture.asset(
-              avatar,
-              fit: fit,
-              alignment: alignment,
-              colorFilter:
-                  color != null && blendMode != null ? ColorFilter.mode(color!, blendMode!) : null,
-              placeholderBuilder: (context) => placeholder ?? const SizedBox(),
-            );
+          : AvatarHelper.isRawSvg(avatar)
+              ? SvgPicture.string(
+                  avatar,
+                  fit: fit,
+                  alignment: alignment,
+                  colorFilter: color != null && blendMode != null
+                      ? ColorFilter.mode(color!, blendMode!)
+                      : null,
+                  placeholderBuilder: (context) => placeholder ?? const SizedBox(),
+                )
+              : SvgPicture.asset(
+                  avatar,
+                  fit: fit,
+                  alignment: alignment,
+                  colorFilter: color != null && blendMode != null
+                      ? ColorFilter.mode(color!, blendMode!)
+                      : null,
+                  placeholderBuilder: (context) => placeholder ?? const SizedBox(),
+                );
     } else {
       return isOnlineAvatar
           ? Image.network(
