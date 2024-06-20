@@ -14,6 +14,10 @@ class RoundedAvatar extends StatelessWidget {
   final BoxFit fit;
   final bool isSvg;
   final Map<String, String>? httpHeaders;
+  final Widget? placeholder;
+  final Alignment alignment;
+  final Color? color;
+  final BlendMode? blendMode;
 
   const RoundedAvatar({
     super.key,
@@ -26,6 +30,10 @@ class RoundedAvatar extends StatelessWidget {
     this.fit = BoxFit.cover,
     this.isSvg = false,
     this.httpHeaders,
+    this.placeholder,
+    this.alignment = Alignment.center,
+    this.color,
+    this.blendMode,
   });
 
   @override
@@ -47,21 +55,24 @@ class RoundedAvatar extends StatelessWidget {
 
   Widget _buildAvatar(String avatar) {
     final bool isOnlineAvatar = AvatarHelper.isOnlineAvatar(avatar);
-    // TODO ADD PLACEHOLDER AND ERROR BUILDER FOR ALL use FadeInImage or somthing else
     if (isSvg) {
       return isOnlineAvatar
           ? SvgPicture.network(
               avatar,
               fit: fit,
               headers: httpHeaders,
-              placeholderBuilder: (context) => const Center(child: CircularProgressIndicator()),
-              // errorBuilder: (context, error, stackTrace) => Icon(Icons.error),
+              alignment: alignment,
+              colorFilter:
+                  color != null && blendMode != null ? ColorFilter.mode(color!, blendMode!) : null,
+              placeholderBuilder: (context) => placeholder ?? const SizedBox(),
             )
           : SvgPicture.asset(
               avatar,
               fit: fit,
-              placeholderBuilder: (context) => const Center(child: CircularProgressIndicator()),
-              // errorBuilder: (context, error, stackTrace) => Icon(Icons.error),
+              alignment: alignment,
+              colorFilter:
+                  color != null && blendMode != null ? ColorFilter.mode(color!, blendMode!) : null,
+              placeholderBuilder: (context) => placeholder ?? const SizedBox(),
             );
     } else {
       return isOnlineAvatar
@@ -69,12 +80,18 @@ class RoundedAvatar extends StatelessWidget {
               avatar,
               fit: fit,
               headers: httpHeaders,
-              errorBuilder: (context, error, stackTrace) => const Icon(Icons.error),
+              alignment: alignment,
+              color: color,
+              colorBlendMode: blendMode,
+              errorBuilder: (context, error, stackTrace) => placeholder ?? const SizedBox(),
             )
           : Image.asset(
               avatar,
               fit: fit,
-              errorBuilder: (context, error, stackTrace) => const Icon(Icons.error),
+              alignment: alignment,
+              color: color,
+              colorBlendMode: blendMode,
+              errorBuilder: (context, error, stackTrace) => placeholder ?? const SizedBox(),
             );
     }
   }
