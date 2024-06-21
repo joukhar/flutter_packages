@@ -8,12 +8,12 @@ Here is a list of available packages:
 
 <a href="https://www.buymeacoffee.com/joukhar" target="_blank"><img src="./assets/sponsor/gamify-ui-kit.png" alt="Gamify UI Kit" ></a>
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
-    <a href="https://codecanyon.net/item/gamify-ui-kit-flutter-ui-kit/52802872" target="_blank" style="flex: 1;">
-        <img src="./assets/sponsor/codecanyon.png" alt="Buy Me A Coffee" style="width: 100%; height: auto;">
+<div style="display: flex; justify-content: space-between; align-items: center; width: 100%;">
+    <a href="https://codecanyon.net/item/gamify-ui-kit-flutter-ui-kit/52802872" target="_blank" style="flex: 1;margin-right: 5px;">
+        <img src="./assets/sponsor/codecanyon.png" alt="Gamify ui kit - Codecanyon" title="Gamify ui kit - Codecanyon" style="width: 100%; height: auto;">
     </a>
-    <a href="https://joukhar.gumroad.com/l/gamify-ui-kit" target="_blank" style="flex: 1;">
-        <img src="./assets/sponsor/gumroad.png" alt="Buy Me A Coffee" style="width: 100%; height: auto;">
+    <a href="https://joukhar.gumroad.com/l/gamify-ui-kit" target="_blank" style="flex: 1;margin-left: 5px;">
+        <img src="./assets/sponsor/gumroad.png"  alt="Gamify ui kit - Gumroad" title="Gamify ui kit - Gumroad" style="width: 100%; height: auto;">
     </a>
 </div>
 
