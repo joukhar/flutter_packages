@@ -2,7 +2,7 @@
 
 Here is a list of available packages:
 
-1. [**Rounded Avatar**](./rounded_avatar/)
+1. [**Rounded Avatar**](./packages/rounded_avatar/)
 
 ## Sponsor: Gamify UI Kit
 
