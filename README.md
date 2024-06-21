@@ -6,7 +6,7 @@ Here is a list of available packages:
 
 ## Sponsor: Gamify UI Kit
 
-<a href="https://www.buymeacoffee.com/joukhar" target="_blank"><img src="./assets/sponsor/gamify-ui-kit.png" alt="Gamify UI Kit" ></a>
+<a href="#" target="_blank"><img src="./assets/sponsor/gamify-ui-kit.png" alt="Gamify UI Kit" ></a>
 
 <div style="text-align: center;">
     <a href="https://codecanyon.net/item/gamify-ui-kit-flutter-ui-kit/52802872" target="_blank" >

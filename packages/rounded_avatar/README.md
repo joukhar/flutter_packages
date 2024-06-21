@@ -1,6 +1,3 @@
-![GitHub Release](https://img.shields.io/github/v/release/joukhar/flutter_packages/tree/main/rounded_avatar)
-![GitHub License](https://img.shields.io/github/license/joukhar/flutter_packages/tree/main/rounded_avatar)
-
 # Rounded Avatar
 
 A customizable widget for displaying rounded avatars in Flutter applications. Supports both network and local images, including SVGs, and offers various customization options such as border color, border width, border radius, and image fit.
@@ -14,7 +11,7 @@ A customizable widget for displaying rounded avatars in Flutter applications. Su
 
 ## Screenshots
 
-<img src="./screenshots/preview.png" alt="project-preview" title="project-preview">
+<img src="https://raw.githubusercontent.com/joukhar/flutter_packages/main/packages/rounded_avatar/screenshots/preview.png" alt="project-preview" title="project-preview">
 
 ## Installation
 
@@ -63,14 +60,14 @@ class MyApp extends StatelessWidget {
 
 ## Sponsor: Gamify UI Kit
 
-<a href="https://www.buymeacoffee.com/joukhar" target="_blank"><img src="../../assets/sponsor/gamify-ui-kit.png" alt="Gamify UI Kit" ></a>
+<a href="#" target="_blank"><img src="https://raw.githubusercontent.com/joukhar/flutter_packages/main/assets/sponsor/gamify-ui-kit.png" alt="Gamify UI Kit" ></a>
 
 <div style="text-align: center;">
     <a href="https://codecanyon.net/item/gamify-ui-kit-flutter-ui-kit/52802872" target="_blank" >
-        <img src="../../assets/sponsor/codecanyon.png" alt="Gamify ui kit - Codecanyon" title="Gamify ui kit - Codecanyon" style="width: 47%; object-fit:contain">
+        <img src="https://raw.githubusercontent.com/joukhar/flutter_packages/main/assets/sponsor/codecanyon.png" alt="Gamify ui kit - Codecanyon" title="Gamify ui kit - Codecanyon" style="width: 47%; object-fit:contain">
     </a>
     <a href="https://joukhar.gumroad.com/l/gamify-ui-kit" target="_blank" >
-        <img src="../../assets/sponsor/gumroad.png"  alt="Gamify ui kit - Gumroad" title="Gamify ui kit - Gumroad" style="width: 47%; object-fit:contain">
+        <img src="https://raw.githubusercontent.com/joukhar/flutter_packages/main/assets/sponsor/gumroad.png"  alt="Gamify ui kit - Gumroad" title="Gamify ui kit - Gumroad" style="width: 47%; object-fit:contain">
     </a>
 </div>
 
@@ -80,7 +77,7 @@ If you find this package useful, consider buying me a coffee to support further 
 
 <a href="https://www.buymeacoffee.com/joukhar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-<a href="https://www.buymeacoffee.com/joukhar" target="_blank"><img src="../../assets/buymecoffee_qr.png" alt="Buy Me A Coffee" style="width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/joukhar" target="_blank"><img src="https://raw.githubusercontent.com/joukhar/flutter_packages/main/assets/buymecoffee_qr.png" alt="Buy Me A Coffee" style="width: 217px !important;" ></a>
 
 ## 🛡️ License
 
