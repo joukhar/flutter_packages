@@ -1,3 +1,6 @@
+![GitHub Release](https://img.shields.io/github/v/release/joukhar/flutter_packages/tree/main/rounded_avatar)
+![GitHub License](https://img.shields.io/github/license/joukhar/flutter_packages/tree/main/rounded_avatar)
+
 # Rounded Avatar
 
 A customizable widget for displaying rounded avatars in Flutter applications. Supports both network and local images, including SVGs, and offers various customization options such as border color, border width, border radius, and image fit.
@@ -8,6 +11,10 @@ A customizable widget for displaying rounded avatars in Flutter applications. Su
 - **SVG Support**: Handle SVG images effortlessly.
 - **Customizable Borders**: Set border color, width, and radius.
 - **Flexible Image Fit**: Control how the image is inscribed into the box.
+
+## Screenshots
+
+<img src="./screenshots/preview.png" alt="project-preview" title="project-preview">
 
 ## Installation
 
@@ -54,6 +61,27 @@ class MyApp extends StatelessWidget {
 }
 ```
 
-## Screenshots
+## Sponsor: Gamify UI Kit
 
-![Screenshot1][] ![Screenshot2][]## Buy Me a CoffeeIf you find this package useful, consider buying me a coffee to support further development[![Buy Me a Coffee][]][]## Additional Support### Available on Codecanyon[![Codecanyon][]](https://codecanyon.net/user/yourusername)### Available on Gumroad[![Gumroad][]](https://gumroad.com/yourusername)## Additional Information### More InformationFor more information about this package, visit the [documentation](https://github.com/your-repo/rounded_avatar).### ContributingWe welcome contributions! If you have an idea for a feature or find a bug, please open an issue or submit a pull request.1. Fork the repository.2. Create your feature branch (`git checkout -b feature/your-feature`).3. Commit your changes (`git commit -m 'Add some feature'`).4. Push to the branch (`git push origin feature/your-feature`).5. Open a pull request.### Filing IssuesIf you encounter any issues, please file them on the [GitHub issues page](https://github.com/your-repo/rounded_avatar/issues). We aim to respond to issues within 48 hours.### Response TimeOur team strives to respond to issues and pull requests within 48 hours. For urgent matters, please contact us directly through our support email.## LicenseThis project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.```### Notes:- Replace `https://github.com/your-repo/rounded_avatar.git` with the actual URL of your Git repository.- Update `https://example.com/avatar.svg` and other placeholder URLs with your actual content.- Replace `https://via.placeholder.com/150` with actual URLs for screenshots.- Update the links for Buy Me a Coffee, Codecanyon, and Gumroad with your actual profiles.- Replace the placeholders in the "More Information", "Contributing", and "Filing Issues" sections with relevant links and details.This `README.md` provides a comprehensive overview of the package, including installation, usage, screenshots, support options, and additional information for contributors and users.
+<a href="https://www.buymeacoffee.com/joukhar" target="_blank"><img src="../assets/sponsor/gamify-ui-kit.png" alt="Gamify UI Kit" ></a>
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+    <a href="https://codecanyon.net/item/gamify-ui-kit-flutter-ui-kit/52802872" target="_blank" style="flex: 1;">
+        <img src="../assets/sponsor/codecanyon.png" alt="Buy Me A Coffee" style="width: 100%; height: auto;">
+    </a>
+    <a href="https://joukhar.gumroad.com/l/gamify-ui-kit" target="_blank" style="flex: 1;">
+        <img src="../assets/sponsor/gumroad.png" alt="Buy Me A Coffee" style="width: 100%; height: auto;">
+    </a>
+</div>
+
+## Support
+
+If you find this package useful, consider buying me a coffee to support further development.
+
+<a href="https://www.buymeacoffee.com/joukhar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+<a href="https://www.buymeacoffee.com/joukhar" target="_blank"><img src="../assets/buymecoffee_qr.png" alt="Buy Me A Coffee" style="width: 217px !important;" ></a>
+
+## 🛡️ License
+
+This project is licensed under the Apache License 2.0
