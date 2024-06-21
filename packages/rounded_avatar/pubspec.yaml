@@ -1,6 +1,6 @@
 name: rounded_avatar
 description: "The RoundedAvatar package provides a customizable widget for displaying rounded avatars in Flutter applications. It supports both network and local images, including SVGs, and offers various customization options such as border color, border width, border radius, and image fit."
-version: 1.0.0
+version: 1.0.0+2
 homepage: https://github.com/joukhar/flutter_packages
 repository: https://github.com/joukhar/flutter_packages
 

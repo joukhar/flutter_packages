@@ -62,12 +62,12 @@ class MyApp extends StatelessWidget {
 
 <a href="#" target="_blank"><img src="https://raw.githubusercontent.com/joukhar/flutter_packages/main/assets/sponsor/gamify-ui-kit.png" alt="Gamify UI Kit" ></a>
 
-<div style="text-align: center;">
+<div align="center">
     <a href="https://codecanyon.net/item/gamify-ui-kit-flutter-ui-kit/52802872" target="_blank" >
-        <img src="https://raw.githubusercontent.com/joukhar/flutter_packages/main/assets/sponsor/codecanyon.png" alt="Gamify ui kit - Codecanyon" title="Gamify ui kit - Codecanyon" style="width: 47%; object-fit:contain">
+        <img src="https://raw.githubusercontent.com/joukhar/flutter_packages/main/assets/sponsor/codecanyon.png" alt="Gamify ui kit - Codecanyon" title="Gamify ui kit - Codecanyon" width="47%">
     </a>
     <a href="https://joukhar.gumroad.com/l/gamify-ui-kit" target="_blank" >
-        <img src="https://raw.githubusercontent.com/joukhar/flutter_packages/main/assets/sponsor/gumroad.png"  alt="Gamify ui kit - Gumroad" title="Gamify ui kit - Gumroad" style="width: 47%; object-fit:contain">
+        <img src="https://raw.githubusercontent.com/joukhar/flutter_packages/main/assets/sponsor/gumroad.png" alt="Gamify ui kit - Gumroad" title="Gamify ui kit - Gumroad" width="47%">
     </a>
 </div>
 
@@ -75,9 +75,9 @@ class MyApp extends StatelessWidget {
 
 If you find this package useful, consider buying me a coffee to support further development.
 
-<a href="https://www.buymeacoffee.com/joukhar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/joukhar" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" title="Buy Me A Coffee" height="60" width="217"></a>
 
-<a href="https://www.buymeacoffee.com/joukhar" target="_blank"><img src="https://raw.githubusercontent.com/joukhar/flutter_packages/main/assets/buymecoffee_qr.png" alt="Buy Me A Coffee" style="width: 217px !important;" ></a>
+<a href="https://www.buymeacoffee.com/joukhar" target="_blank"><img src="https://raw.githubusercontent.com/joukhar/flutter_packages/main/assets/buymecoffee_qr.png" alt="Buy Me A Coffee" title="Buy Me A Coffee" width="217"></a>
 
 ## 🛡️ License
 
