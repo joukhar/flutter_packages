@@ -14,7 +14,7 @@ class RoundedAvatar extends StatelessWidget {
   final BoxFit fit;
   final bool isSvg;
   final Map<String, String>? httpHeaders;
-  final Widget? placeholder;
+  final Widget placeholder;
   final Alignment alignment;
   final Color? color;
   final BlendMode? blendMode;
@@ -30,7 +30,7 @@ class RoundedAvatar extends StatelessWidget {
     this.fit = BoxFit.cover,
     this.isSvg = false,
     this.httpHeaders,
-    this.placeholder,
+    this.placeholder = const SizedBox(),
     this.alignment = Alignment.center,
     this.color,
     this.blendMode,
@@ -64,7 +64,7 @@ class RoundedAvatar extends StatelessWidget {
               alignment: alignment,
               colorFilter:
                   color != null && blendMode != null ? ColorFilter.mode(color!, blendMode!) : null,
-              placeholderBuilder: (context) => placeholder ?? const SizedBox(),
+              placeholderBuilder: (context) => placeholder,
             )
           : AvatarHelper.isRawSvg(avatar)
               ? SvgPicture.string(
@@ -74,7 +74,7 @@ class RoundedAvatar extends StatelessWidget {
                   colorFilter: color != null && blendMode != null
                       ? ColorFilter.mode(color!, blendMode!)
                       : null,
-                  placeholderBuilder: (context) => placeholder ?? const SizedBox(),
+                  placeholderBuilder: (context) => placeholder,
                 )
               : SvgPicture.asset(
                   avatar,
@@ -83,7 +83,7 @@ class RoundedAvatar extends StatelessWidget {
                   colorFilter: color != null && blendMode != null
                       ? ColorFilter.mode(color!, blendMode!)
                       : null,
-                  placeholderBuilder: (context) => placeholder ?? const SizedBox(),
+                  placeholderBuilder: (context) => placeholder,
                 );
     } else {
       return isOnlineAvatar
@@ -94,7 +94,7 @@ class RoundedAvatar extends StatelessWidget {
               alignment: alignment,
               color: color,
               colorBlendMode: blendMode,
-              errorBuilder: (context, error, stackTrace) => placeholder ?? const SizedBox(),
+              errorBuilder: (context, error, stackTrace) => placeholder,
             )
           : Image.asset(
               avatar,
@@ -102,7 +102,7 @@ class RoundedAvatar extends StatelessWidget {
               alignment: alignment,
               color: color,
               colorBlendMode: blendMode,
-              errorBuilder: (context, error, stackTrace) => placeholder ?? const SizedBox(),
+              errorBuilder: (context, error, stackTrace) => placeholder,
             );
     }
   }
