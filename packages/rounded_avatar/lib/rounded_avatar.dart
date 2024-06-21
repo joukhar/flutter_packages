@@ -4,6 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:rounded_avatar/helpers/avatar_helper.dart';
 
+/// RoundedAvatar is a customizable Flutter widget for rounded avatars,
+/// supporting network and local images, including SVGs,
+/// with border customizations and more options.
 class RoundedAvatar extends StatelessWidget {
   final String avatar;
   final double width;
@@ -45,7 +48,9 @@ class RoundedAvatar extends StatelessWidget {
       decoration: BoxDecoration(
         color: borderColor,
         borderRadius: borderRadius == BorderRadius.zero ? null : borderRadius,
-        shape: borderRadius == BorderRadius.zero ? BoxShape.circle : BoxShape.rectangle,
+        shape: borderRadius == BorderRadius.zero
+            ? BoxShape.circle
+            : BoxShape.rectangle,
       ),
       child: borderRadius == BorderRadius.zero
           ? ClipOval(child: _buildAvatar(avatar))
@@ -53,6 +58,7 @@ class RoundedAvatar extends StatelessWidget {
     );
   }
 
+  /// Build avatar widget
   Widget _buildAvatar(String avatar) {
     final bool isOnlineAvatar = AvatarHelper.isOnlineAvatar(avatar);
     if (isSvg) {
@@ -62,8 +68,9 @@ class RoundedAvatar extends StatelessWidget {
               fit: fit,
               headers: httpHeaders,
               alignment: alignment,
-              colorFilter:
-                  color != null && blendMode != null ? ColorFilter.mode(color!, blendMode!) : null,
+              colorFilter: color != null && blendMode != null
+                  ? ColorFilter.mode(color!, blendMode!)
+                  : null,
               placeholderBuilder: (context) => placeholder,
             )
           : AvatarHelper.isRawSvg(avatar)
