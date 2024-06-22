@@ -2,7 +2,6 @@ library flutter_svg_provider_plus;
 
 import 'dart:io';
 import 'dart:async';
-import 'dart:ui' as ui show Image;
 
 import 'package:flutter/material.dart';
 import 'package:flutter/foundation.dart';
@@ -223,8 +222,8 @@ class SvgImageKey {
   }
 
   @override
-  int get hashCode =>
-      Object.hash(path, pixelWidth, pixelHeight, scale, source, httpHeaders, svgGetter, color);
+  int get hashCode => Object.hash(path, pixelWidth, pixelHeight, scale, source,
+      httpHeaders, svgGetter, color);
 
   @override
   String toString() => '${objectRuntimeType(this, 'SvgImageKey')}'

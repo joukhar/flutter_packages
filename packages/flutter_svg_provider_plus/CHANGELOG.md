@@ -1,3 +1,7 @@
+## [1.0.2]
+
+- Clean up code.
+
 ## [1.0.1+1]
 
 - Fix github link.
