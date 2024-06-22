@@ -41,7 +41,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(title: const Text('Rounded Avatar Example')),
         body: Center(
           child: RoundedAvatar(
-            avatar: 'https://example.com/avatar.svg',  // For network SVG
+            'https://example.com/avatar.svg',  // For network SVG
             width: 100.0,
             height: 100.0,
             borderColor: Colors.blue,

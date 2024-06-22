@@ -42,7 +42,7 @@ class Demo extends StatelessWidget {
             children: [
               // basic usage
               const RoundedAvatar(
-                avatar: 'images/avatar.jpeg',
+                'images/avatar.jpeg',
                 width: 100,
                 height: 100,
                 borderColor: Colors.pink,
@@ -51,7 +51,7 @@ class Demo extends StatelessWidget {
 
               // with svg
               RoundedAvatar(
-                avatar: 'images/avatar.svg',
+                'images/avatar.svg',
                 width: 100,
                 height: 100,
                 isSvg: true,
@@ -61,8 +61,7 @@ class Demo extends StatelessWidget {
 
               // with raw svg
               const RoundedAvatar(
-                avatar:
-                    '<svg viewBox="0 0 36 36" fill="none" role="img" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><mask id=":r7:" maskUnits="userSpaceOnUse" x="0" y="0" width="36" height="36"><rect width="36" height="36" rx="72" fill="#FFFFFF"></rect></mask><g mask="url(#:r7:)"><rect width="36" height="36" fill="#ff005b"></rect><rect x="0" y="0" width="36" height="36" transform="translate(0 0) rotate(324 18 18) scale(1)" fill="#ffb238" rx="36"></rect><g transform="translate(-4 -4) rotate(-4 18 18)"><path d="M15 19c2 1 4 1 6 0" stroke="#000000" fill="none" stroke-linecap="round"></path><rect x="10" y="14" width="1.5" height="2" rx="1" stroke="none" fill="#000000"></rect><rect x="24" y="14" width="1.5" height="2" rx="1" stroke="none" fill="#000000"></rect></g></g></svg>',
+                '<svg viewBox="0 0 36 36" fill="none" role="img" xmlns="http://www.w3.org/2000/svg" width="80" height="80"><mask id=":r7:" maskUnits="userSpaceOnUse" x="0" y="0" width="36" height="36"><rect width="36" height="36" rx="72" fill="#FFFFFF"></rect></mask><g mask="url(#:r7:)"><rect width="36" height="36" fill="#ff005b"></rect><rect x="0" y="0" width="36" height="36" transform="translate(0 0) rotate(324 18 18) scale(1)" fill="#ffb238" rx="36"></rect><g transform="translate(-4 -4) rotate(-4 18 18)"><path d="M15 19c2 1 4 1 6 0" stroke="#000000" fill="none" stroke-linecap="round"></path><rect x="10" y="14" width="1.5" height="2" rx="1" stroke="none" fill="#000000"></rect><rect x="24" y="14" width="1.5" height="2" rx="1" stroke="none" fill="#000000"></rect></g></g></svg>',
                 width: 100,
                 height: 100,
                 isSvg: true,
@@ -71,7 +70,7 @@ class Demo extends StatelessWidget {
 
               // with Custom Placeholder
               RoundedAvatar(
-                avatar: 'https://avatars.githubusercontent.com/u/94228259?v=4',
+                'https://avatars.githubusercontent.com/u/94228259?v=4',
                 width: 100,
                 height: 100,
                 borderRadius: BorderRadius.circular(50),
@@ -80,7 +79,7 @@ class Demo extends StatelessWidget {
 
               // Online SVG with HTTP Headers
               RoundedAvatar(
-                avatar: 'https://api.iconify.design/skill-icons:flutter-dark.svg',
+                'https://api.iconify.design/skill-icons:flutter-dark.svg',
                 width: 100,
                 height: 100,
                 borderRadius: BorderRadius.circular(50),

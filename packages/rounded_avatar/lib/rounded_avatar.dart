@@ -22,9 +22,9 @@ class RoundedAvatar extends StatelessWidget {
   final Color? color;
   final BlendMode? blendMode;
 
-  const RoundedAvatar({
+  const RoundedAvatar(
+    this.avatar, {
     super.key,
-    required this.avatar,
     required this.width,
     required this.height,
     this.borderColor,

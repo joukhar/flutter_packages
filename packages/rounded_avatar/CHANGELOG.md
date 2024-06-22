@@ -1,3 +1,7 @@
+## 1.0.2
+
+* Pass avatar directly without specifying param.
+
 ## 1.0.1
 
 * Added Documentation.

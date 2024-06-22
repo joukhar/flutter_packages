@@ -1,6 +1,6 @@
 name: rounded_avatar
 description: "RoundedAvatar is a customizable Flutter widget for rounded avatars, supporting network and local images, including SVGs, with border customizations and more options."
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/joukhar/flutter_packages
 repository: https://github.com/joukhar/flutter_packages
 
